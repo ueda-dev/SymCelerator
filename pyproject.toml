@@ -9,4 +9,8 @@ readme = "README.md"
 requires-python = ">=3.8"
 
 [tool.setuptools]
-packages = { find = { where = ["src"]}}
+package-dir = {"" = "src"}
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
