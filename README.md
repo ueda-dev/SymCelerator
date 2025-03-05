@@ -2,6 +2,9 @@
 ## TL;DR
 変数としてのシンボルを用いた関数定義ができるライブラリです。
 ドキュメント生成機能も備えています。
+```
+pip install git+https://github.com/ueda-dev/SymCelerator
+```
 ```{python}
 from symcelerator import Symbol, symcelerate
 
